@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
+    <title>Error Not Found</title>
     <script src="https://cdn.tailwindcss.com"></script>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
-
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
         @vite('resources/css/app.css')
 </head>
 <body>
-<header class="py-4 shadow-sm bg-white">
+    \<header class="py-4 shadow-sm bg-white">
         <div class="container flex items-center justify-between">
             <a href="">
                 <img src="./image/coffeelogo.png" class="w-32">
@@ -22,7 +21,7 @@
                 </span>
                 <input type="text " class="w-full border border-pink-500 border-r-0 pl-12 py-3 pr-3 rounded-l-md focus:outline-none" placeholder="search">
                 <button class="bg-pink-400 border border-pink-500 text-white px-8 rounded-r-md hover:bg-transparent hover:text-pink-400 transition">Search</button>
-                 </div>
+                </div>
                 <div class="flex items center space-x-4">
                     <a href="wishlist" class="text-center text-gray-700 hover:text-pink-400 transition relative ">
                         <div class="text-2xl">
@@ -85,33 +84,23 @@
             <div class="flex items-center justify-between flex-grow pl-12">
                 <div class="flex items-center space-x-6 capitalize">
                     <a href="home" class="text-gray-200 hover:text-white transition">Home</a>
-                    <a href="/contact" class="text-gray-200 hover:text-white transition">Contact</a>
+                    <a href="home" class="text-gray-200 hover:text-white transition">Contact</a>
                     <a href="home" class="text-gray-200 hover:text-white transition">About</a>
                     <a href="login" class="text-gray-200 hover:text-white transition">Sign Up</a>
                 </div>
-                <a href="login" class="text-gray-200 hover:text-white transition">Login/Register</a>
+                <a href="" class="text-gray-200 hover:text-white transition">Login/Register</a>
             </div>
         </div>
     </nav>
-<div class="container mx-auto my-20 w-1/3 border border-pink-400 bg-white">
-    <div class="p-5 space-y-5 shadow-xl">
-        <h4 class="text-center text-3xl">Contact Us</h4>
-        <form >
-            <div class="grid grid-cols-2 gap-5">
-                <input type="text " class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-e-pink-400" placeholder="First name">
-                <input type="text " class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-e-pink-400" placeholder="Last name">
-                <input type="text " class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-e-pink-400 col-span-2" placeholder="Phone">
-                <input type="text " class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-e-pink-400 col-span-2" placeholder="Email">
-                <textarea class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-e-pink-400  " cols="10" rows="5" placeholder="Write your message"></textarea>
-
-
-            </div>
-            <input type="submit" class="bg-pink-400 border border-pink-500 text-white px-8 rounded-r-md hover:bg-transparent hover:text-pink-400 transition w-full mt-2">
-        </form>
-
+<div class="flex items-center justify-center h-screen bg-gray-100 space-y-2">
+        <div class="text-center">
+            <h1 class="text-6xl font-bold text-gray-700">404</h1>
+            <p class="text-2xl font-semibold text-gray-600">Page Not Found</p>
+            <p class="mt-4 text-gray-500">Oops! The page you are looking for might be in another castle.</p>
+            <a href="home" class="bg-pink-400 border border-pink-500 text-white px-8 rounded-r-md hover:bg-transparent hover:text-pink-400 transition mt-4">Go Home</a>
+        </div>
     </div>
-</div>
-<footer class="bg-white border-t border-green-100 pt-16 pb-12">
+    <footer class="bg-white border-t border-green-100 pt-16 pb-12">
        <div class="container grid grid-cols-3">
         <div class="col-span-1 space-y-8">
             <p class="text-gray-500">
@@ -220,5 +209,8 @@
             </div>
         </div>
     </div>
+ 
+
+    
 </body>
 </html>

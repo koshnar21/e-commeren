@@ -22,7 +22,7 @@
 
 
 <p><a href="/login" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Login</a></p>
-<p><a href="/home" class=" link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">home</a></p> 
+<p><a href="/dashboard" class=" link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">home</a></p> 
 <p><a href="/register" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Register</a></p>
 <p><a href="/viewpr" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">view product</a></p>
 <p><a href="/useracc" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">User Account</a></p>
@@ -30,6 +30,7 @@
 <p><a href="/profileinfo" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">profileinfo</a></p>
 <p><a href="/wishlist" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">wishlist</a></p>
 <p><a href="/contact" class=" link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">contact us</a></p> 
+<p><a href="/error" class=" link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">error  404</a></p> 
 
 
 
