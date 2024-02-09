@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use app\Http\controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -48,6 +49,11 @@ Route::get('/wishlist', function () {
 Route::get('/contact', function () {
     return view('contact');
 }); 
+Route::get('/error', function () {
+    return view('error');
+});
+
+route::get('/redirect',[HomeController::class,'redirect']);
 
 
 
