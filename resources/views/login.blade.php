@@ -102,7 +102,7 @@
     </div>
  
 <section class="bg-gray-50 min-h-screen flex items-center justify-center">
-<!-- Login Form -->
+<!-- Login Form ======================================================================================================================-->
 <div class="bg-cyan-100 flex rounded-2xl shadow-lg max-w-3xl p-5">
 <div class="sm:w-/12 px-16">
 <h2 class="font-bold text-2xl ">Login</h2>
@@ -134,7 +134,7 @@
   <a href="register" class="py-2 px-5  border rounded-xl bg-[#0E86D4]">Register</a>
 </div>
 </div>
-
+<!-- ============================== -->
 <div class=" md:block hidden w-4/5 p-7rem">
   <img class="  rounded-2xl" src="/image/login image.jpg" alt="">
 </div>
